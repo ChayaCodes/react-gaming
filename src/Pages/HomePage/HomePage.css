@@ -1,0 +1,15 @@
+
+
+.bodyIndex {
+    /*דף ראשי*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+  }
+  
+  
+  
+  

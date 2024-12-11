@@ -1,0 +1,78 @@
+
+/*דף ראשי*/
+.imageOpen {
+    /*תמונת פתיחה*/
+    width: 100vw;
+    height: 110vh;
+    background-image: url("../../assets/images/indexPage.png");
+    background-size: cover;
+    /* This scales the image to cover the entire element */
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .jump {
+    /*דיב של הטקסט והחץ ביחד*/
+    position: absolute;
+    top: 80vh;
+    right: 45vw;
+    text-align: center;
+    animation: swinging 2s ease-in-out infinite;
+  }
+  
+  .jump p {
+    /*הטקסט*/
+    color: rgb(255, 0, 119);
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .jump p svg {
+    /*החץ הקטן*/
+    fill: rgb(255, 0, 119);
+    animation: swinging 4s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+  
+  
+  .text {
+    margin-bottom: 20px;
+  }
+  
+  .regOrSign {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+  
+  }
+  
+  .regOrSign h1 {
+    text-align: center;
+  }
+  
+  
+  @keyframes swinging {
+    /*אנימציית נדנוד לחץ שבפתיחה*/
+  
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+  
+    40%,
+    55%,
+    65% {
+      transform: rotate(6deg);
+    }
+  
+    50%,
+    60% {
+      transform: rotate(-6deg);
+    }
+  }
+  
