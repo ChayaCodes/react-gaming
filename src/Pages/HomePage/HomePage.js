@@ -17,8 +17,8 @@ const HomePage = () => {
       <div className="regOrSign">
         <div id="reg">
           <h1 className="had">היכנס או הירשם</h1>
-          <RainbowButton onClick={navigate('./signin')}>הרשם </RainbowButton>
-          <RainbowButton onClick={() => navigate('./register')}>היכנס</RainbowButton>
+          <RainbowButton onClick={navigate('/signin')}>הרשם </RainbowButton>
+          <RainbowButton onClick={() => navigate('/register')}>היכנס</RainbowButton>
         </div>
       </div>
     </div>
